@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   postgis:
-    image: geonode/postgis:15
+    image: geonode/postgis:15.3
     container_name: postgis4healthfacilities
     volumes:
       - ./init-db:/docker-entrypoint-initdb.d/
